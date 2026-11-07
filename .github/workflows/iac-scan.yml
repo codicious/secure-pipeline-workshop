@@ -9,7 +9,7 @@ on:
 
 jobs:
   iac-scan:
-    name: IAC Scan with Trivy
+    name: "IAC Scan with Trivy"
     runs-on: ubuntu-latest
     outputs:
       result: ${{ steps.scan-result.outputs.result }}
